@@ -511,7 +511,7 @@
     :goto_12e
     sput-boolean v0, Lcom/android/server/power/PowerManagerUtil;->RAINBOW_PROJECT:Z
 
-    const-string v14, "5"
+    const-string v14, "4"
 
     invoke-static {v14}, Ljava/lang/Integer;->parseInt(Ljava/lang/String;)I
 
