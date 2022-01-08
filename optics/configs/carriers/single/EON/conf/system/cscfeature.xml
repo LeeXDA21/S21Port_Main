@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8'?>
+<SamsungMobileFeature>
+  <Version>ED00014</Version>
+  <Country>ECUADOR</Country>
+  <CountryISO>EC</CountryISO>
+  <SalesCode>EON</SalesCode>
+  <FeatureSet>
+    <CscFeature_Camera_CameraFlicker>60hz</CscFeature_Camera_CameraFlicker>
+    <CscFeature_Contact_EnableDynCallerIdMatchingDigitWithAutoSim>TRUE</CscFeature_Contact_EnableDynCallerIdMatchingDigitWithAutoSim>
+    <CscFeature_Contact_SupportDuoVideoCall>TRUE</CscFeature_Contact_SupportDuoVideoCall>
+    <CscFeature_GMS_SetClientIDBaseCr>android-samsung-ss</CscFeature_GMS_SetClientIDBaseCr>
+    <CscFeature_GMS_SetClientIDBaseMs>android-samsung-rvo1</CscFeature_GMS_SetClientIDBaseMs>
+    <CscFeature_GMS_SetClientIDBaseVs>android-samsung-rvo1</CscFeature_GMS_SetClientIDBaseVs>
+    <CscFeature_GPS_SupportEnableAgps>TRUE</CscFeature_GPS_SupportEnableAgps>
+    <CscFeature_RIL_ConfigNetworkTypeCapability>EUR-LTN-GSM-EUR</CscFeature_RIL_ConfigNetworkTypeCapability>
+    <CscFeature_RIL_ConfigWbamr>2G</CscFeature_RIL_ConfigWbamr>
+    <CscFeature_RIL_SupportEsim>FALSE</CscFeature_RIL_SupportEsim>
+    <CscFeature_RIL_WbamrDefaultOn>TRUE</CscFeature_RIL_WbamrDefaultOn>
+    <CscFeature_Setting_ConfigAboutDeviceItems>modelnumberDSsuffix=disabled;</CscFeature_Setting_ConfigAboutDeviceItems>
+    <CscFeature_Setting_ConfigOperatorCallService>get_dsmode_by_product_code</CscFeature_Setting_ConfigOperatorCallService>
+    <CscFeature_Setting_SupportELabelManufacturer>DISEÑADO Y DESARROLLADO POR SAMSUNG</CscFeature_Setting_SupportELabelManufacturer>
+    <CscFeature_SyncML_ConfigDevicePreId>IMEI</CscFeature_SyncML_ConfigDevicePreId>
+    <CscFeature_VT_ConfigBearer>-CSVT</CscFeature_VT_ConfigBearer>
+    <CscFeature_VT_SupportAddCall>TRUE</CscFeature_VT_SupportAddCall>
+    <CscFeature_VT_SupportMerge>TRUE</CscFeature_VT_SupportMerge>
+    <CscFeature_VoiceCall_ConfigRecording>RecordingAllowedByMenu,disclaimer_latin</CscFeature_VoiceCall_ConfigRecording>
+    <CscFeature_VoiceCall_EnableBeepVibration4UssdAlert>TRUE</CscFeature_VoiceCall_EnableBeepVibration4UssdAlert>
+    <CscFeature_Weather_ConfigCpType>TWC</CscFeature_Weather_ConfigCpType>
+    <CscFeature_Wifi_ConfigSnsStatus>DEFAULT_ON</CscFeature_Wifi_ConfigSnsStatus>
+  </FeatureSet>
+</SamsungMobileFeature>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<omcInfo>
+  <contentType>0</contentType>
+  <version>SAOMC_SM-G998B_OXM_OPV_12_0011</version>
+  <model>
+    <name>SM-G998B</name>
+  </model>
+  <catalog>
+    <customer>yes</customer>
+    <customerEdition>ED0003</customerEdition>
+    <carrierListVersion>120012</carrierListVersion>
+    <cscfeature>yes</cscfeature>
+    <carrierfeature>yes</carrierfeature>
+    <cp>no</cp>
+    <imsupdate>no</imsupdate>
+  </catalog>
+  <carrierList>
+    <carrierCount>2</carrierCount>
+    <carrier>
+      <mcc>260</mcc>
+      <mnc>03</mnc>
+      <spn>Orange</spn>
+      <networkName>Orange</networkName>
+    </carrier>
+    <carrier>
+      <mcc>260</mcc>
+      <mnc>03</mnc>
+      <spn>nju</spn>
+      <networkName>nju</networkName>
+    </carrier>
+  </carrierList>
+</omcInfo>

@@ -1,0 +1,14 @@
+{
+  "note": "change 1st commercialized project for Laotel",
+  "imsswitch_update": {
+    "imsswitch": [
+      {
+        "mnoname": "Laotel_LA",
+        "enableIms": true,
+        "enableServiceVolte": true,
+        "enableServiceVilte": true,
+        "enableServiceSmsip": true
+      }
+    ]
+  }
+}

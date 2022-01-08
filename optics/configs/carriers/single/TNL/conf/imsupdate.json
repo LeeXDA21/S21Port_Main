@@ -1,0 +1,18 @@
+{
+  "update_version": 1,
+  "note": "Roaming enabled for Tmobile_NL",
+  "imsprofile_update": {
+    "profile": [
+      {
+        "name": "Open TMobile Netherlands IMS",
+        "mnoname": "TMobile_NL",
+        "support_roaming": true
+      },
+      {
+        "name": "Open TMobile Netherlands Emergency",
+        "mnoname": "TMobile_NL",
+        "support_roaming": true
+      }
+    ]
+  }
+}

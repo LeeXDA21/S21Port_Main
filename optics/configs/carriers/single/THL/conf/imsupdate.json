@@ -1,0 +1,14 @@
+{
+  "update_version": 2,
+  "note": "Change TRUEMOVE IMS sub features",
+  "globalsettings_update" : {
+    "globalsetting" : [
+      {
+        "mnoname": "Truemove_TH",
+        "ussd_domain_setting": "PSCS",
+        "ss_domain_setting": "PS_ONLY_PSREGIED",
+        "emergency_domain_setting": "PS"
+      }
+    ]
+  }
+}

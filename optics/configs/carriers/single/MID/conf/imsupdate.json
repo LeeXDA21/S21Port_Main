@@ -1,0 +1,18 @@
+{
+  "update_version": 1,
+  "note": "Disable IMS for Touch_LB",
+  "imsswitch_update":
+  {
+    "defaultswitch": {
+    },
+    "imsswitch": [
+      {
+        "mnoname": "Touch_LB",
+        "enableIms": false,
+        "enableServiceVolte": false,
+        "enableServiceVilte": false,
+        "enableServiceSmsip": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+{
+    "update_version": 1,
+    "note": "Enable IMS for Bite Lithuania",
+    "imsswitch_update": {
+        "imsswitch": [
+            {
+                "mnoname": "Bite_LT",
+                "enableIms": true,
+                "enableServiceVolte": true,
+                "enableServiceVowifi": true,
+                "enableServiceVilte": true,
+                "enableServiceSmsip": true
+            }
+        ]
+    }
+}

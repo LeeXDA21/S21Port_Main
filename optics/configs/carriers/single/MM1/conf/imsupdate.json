@@ -1,0 +1,89 @@
+{
+  "note": "Enable SMSIP, SS for StarHub and M1  -  Enable VoLTE roaming for M1 - Enable EVS, Ecall for Singtel",
+  "imsprofile_update": {
+    "profile": [
+      {
+        "name": "StarHub VoLTE",
+        "mnoname": "Starhub_SG",
+        "network": [
+          {
+            "type": "nr,lte,wifi",
+            "services": [
+              "mmtel",
+              "smsip"
+            ],
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "name": "M1 VoLTE",
+        "mnoname": "Mobileone_SG",
+        "support_roaming": true,
+        "network": [
+          {
+            "type": "lte",
+            "services": [
+              "mmtel"
+            ],
+            "enabled": true
+          },
+          {
+            "type": "nr,wifi",
+            "services": [
+              "mmtel",
+              "smsip"
+            ],
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "name": "Singtel VoLTE",
+        "mnoname": "Singtel_SG",
+        "enable_evs_codec": true
+      }
+    ]
+  },
+  "globalsettings_update":
+  {
+    "globalsetting": [
+      {
+        "mnoname": "Starhub_SG",
+        "enable_default_sms_fallback": true,
+        "ss_domain_setting": "PS_ONLY_VOLTEREGIED"
+      },
+      {
+        "mnoname": "Mobileone_SG",
+        "enable_default_sms_fallback": true,
+        "ss_domain_setting": "PS_ONLY_VOLTEREGIED"
+      },
+      {
+        "mnoname": "Singtel_SG",
+        "emergency_domain_setting": "PS"
+      }
+    ]
+  },
+  "imsswitch_update": {
+    "imsswitch": [
+      {
+        "mnoname": "Starhub_SG",
+        "enableIms": true,
+        "enableServiceVolte": true,
+        "enableServiceSmsip": true
+      },
+      {
+        "mnoname": "Starhub_SG:MVNO",
+        "enableIms": true,
+        "enableServiceVolte": true,
+        "enableServiceVowifi": true
+      },
+      {
+        "mnoname": "Mobileone_SG",
+        "enableIms": true,
+        "enableServiceVolte": true,
+        "enableServiceSmsip": true
+      }
+    ]
+  }
+}

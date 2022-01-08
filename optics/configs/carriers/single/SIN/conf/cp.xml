@@ -1,0 +1,4 @@
+<CP_Feature>
+    <CP_Version>1</CP_Version>
+    <CP_Allow_SA>001FFF,002FFF,003FFF,52000F,52003F,52004F,52501F,52502F,52503F,52505F,999FFF</CP_Allow_SA>
+</CP_Feature>

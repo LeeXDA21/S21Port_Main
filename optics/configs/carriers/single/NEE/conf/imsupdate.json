@@ -1,0 +1,24 @@
+{
+  "update_version": 1,
+  "note": "EVS enabled for TDC_DK; enable IMS for Vimla_SE first launch",
+  "imsprofile_update": 
+  {
+    "profile": [
+      {
+        "name": "TDC DK VoLTE",
+        "mnoname": "TDC_DK",
+        "enable_evs_codec": true
+      }
+    ]
+  },
+  "imsswitch_update": {
+    "imsswitch": [
+      {
+        "mnoname": "Vimla_SE",
+        "enableIms": true,
+        "enableServiceVolte": true,
+        "enableServiceSmsip": true
+      }
+    ]
+  }
+}

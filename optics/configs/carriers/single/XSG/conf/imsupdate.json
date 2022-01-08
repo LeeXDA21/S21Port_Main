@@ -1,0 +1,26 @@
+{
+  "update_version": 1,
+  "note": "Enable IMS for Nedaa_AE",
+  "imsswitch_update": {
+    "imsswitch": [
+      {
+        "mnoname": "Nedaa_AE",
+        "enableIms": true,
+        "enableServiceVolte": true,
+        "enableServiceVilte": true,
+        "enableServiceSmsip": true,
+        "enableServiceVowifi": true
+      }
+    ]
+  },
+    "globalsettings_update": {
+    "globalsetting": [
+      {
+        "mnoname": "Nedaa_AE",
+        "ss_domain_setting": "PS_ONLY_VOLTEREGIED",
+        "emergency_domain_setting": "PS",
+        "ussd_domain_setting": "PS"
+      }
+    ]
+  }
+}
