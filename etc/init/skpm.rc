@@ -1,0 +1,30 @@
+on post-fs-data
+    chmod 0666 /efs/sec_efs/skpm_sk.dat
+    chmod 0666 /efs/sec_efs/skpm_supported_list
+    chmod 0666 /efs/sec_efs/skpm_OTA_WB_FIDO_Bound_FP_ECC_P256
+    chmod 0666 /efs/sec_efs/skpm_OTA_WB_FIDO_Bound_FP_RSA_2048
+    chmod 0666 /efs/sec_efs/skpm_OTA_WB_FIDO_Roaming_FP_ECC_P256
+    chmod 0666 /efs/sec_efs/skpm_OTA_WB_FIDO_Bound_FACE_ECC_P256
+    chmod 0666 /efs/sec_efs/skpm_OTA_WB_FIDO_Bound_FACE_RSA_2048
+    chmod 0666 /efs/sec_efs/skpm_OTA_WB_FIDO_Roaming_FACE_ECC_P256
+    chmod 0666 /efs/sec_efs/skpm_OTA_WB_FIDO_Bound_IRIS_ECC_P256
+    chmod 0666 /efs/sec_efs/skpm_OTA_WB_FIDO_Bound_IRIS_RSA_2048
+    chmod 0666 /efs/sec_efs/skpm_OTA_WB_FIDO_Roaming_IRIS_ECC_P256
+    chmod 0666 /efs/sec_efs/skpm_OTA_WB_TA_Downloader_RSA_2048
+    chmod 0666 /efs/sec_efs/skpm_OTA_WB_IFAA_RSA_2048
+
+    chmod 0777 /efs/sec_efs/skpm
+    chmod 0666 /efs/sec_efs/skpm/skpm_sk.dat
+    chmod 0666 /efs/sec_efs/skpm/skpm_supported_list
+    chmod 0666 /efs/sec_efs/skpm/skpm_OTA_WB_FIDO_Bound_FP_ECC_P256
+    chmod 0666 /efs/sec_efs/skpm/skpm_OTA_WB_FIDO_Bound_FP_RSA_2048
+    chmod 0666 /efs/sec_efs/skpm/skpm_OTA_WB_FIDO_Roaming_FP_ECC_P256
+    chmod 0666 /efs/sec_efs/skpm/skpm_OTA_WB_FIDO_Bound_FACE_ECC_P256
+    chmod 0666 /efs/sec_efs/skpm/skpm_OTA_WB_FIDO_Bound_FACE_RSA_2048
+    chmod 0666 /efs/sec_efs/skpm/skpm_OTA_WB_FIDO_Roaming_FACE_ECC_P256
+    chmod 0666 /efs/sec_efs/skpm/skpm_OTA_WB_FIDO_Bound_IRIS_ECC_P256
+    chmod 0666 /efs/sec_efs/skpm/skpm_OTA_WB_FIDO_Bound_IRIS_RSA_2048
+    chmod 0666 /efs/sec_efs/skpm/skpm_OTA_WB_FIDO_Roaming_IRIS_ECC_P256
+    chmod 0666 /efs/sec_efs/skpm/skpm_OTA_WB_TA_Downloader_RSA_2048
+    chmod 0666 /efs/sec_efs/skpm/skpm_OTA_WB_IFAA_RSA_2048
+

@@ -1,0 +1,10 @@
+# SPUD
+service spud /system/bin/spud
+    class main
+    user system
+    group system
+    disabled
+    oneshot
+
+on property:sys.spud.edtbo_update=1
+    start spud
